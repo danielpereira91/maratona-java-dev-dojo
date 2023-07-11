@@ -12,10 +12,12 @@ public class TiposPrimitivos {
         short ageShort = 10;
         boolean truth = true;
         boolean fake = false;
-        String word; // Era para ser "char" porém o Java fica forçando mudar para String
+        String word; // Era para ser "char" porém o Java fica forçando mudar para String (String não é tipo primitivo, é tipo de referência
         word = "C";
         char asciiTable = 68;
         char uniCode = '\u004C';
+        String name = "Goku";
+
 
         System.out.println(age);
         System.out.println("A idade é "+age+" anos.");
@@ -26,5 +28,6 @@ public class TiposPrimitivos {
         System.out.println(asciiTable + "aniel");
         System.out.println("Age of the Universe: " + universeAge);
         System.out.println(salaryInt);
+        System.out.println("Hey! I'm "+name+".");
     }
 }
