@@ -54,5 +54,10 @@ public class Operadores {
         boolean isPlayStationCincoCompravel = valorTotalContaCorrente >= valorPlaystation || valorTotalContaPoupanca >= valorPlaystation;
         System.out.println("Dá pra comprar um Playstation 5? "+isPlayStationCincoCompravel);
 
+
+        // =, +=, -=, *=, /=, %=
+        double bonus = 1800;
+
+
     }
 }
