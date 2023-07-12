@@ -57,6 +57,32 @@ public class Operadores {
 
         // =, +=, -=, *=, /=, %=
         double bonus = 1800;
+        bonus += 1000;
+        System.out.println(bonus);
+        bonus -= 1000;
+        System.out.println(bonus);
+        bonus *= 2;
+        System.out.println(bonus);
+        bonus /= 2;
+        System.out.println(bonus);
+        bonus %= 2;
+        System.out.println(bonus);
+
+        int contador = 0;
+        System.out.println(contador);
+        contador += 1;
+        System.out.println(contador);
+        contador++;
+        System.out.println(contador);
+        contador--;
+        System.out.println(contador);
+        ++contador;
+        System.out.println(contador);
+        --contador;
+        System.out.println(contador);
+
+        System.out.println(contador++); // primeiro ele imprimiu o contador (1), depois incrementou
+        System.out.println(++contador); // já estava incrementado (2), incroementou e depois imprimiu (3).
 
 
     }
