@@ -15,5 +15,24 @@ public class Operadores {
         System.out.println(mult);
         System.out.println(div);
         System.out.println(number1/number2);
+
+        // % (resto)
+        int resto = 20 % 2;
+        System.out.println(resto);
+
+        // Operadores lógicos: < , > , <=, >=, ==, !=
+        boolean isTenGreaterThanTwenty = 10 > 20;
+        boolean isTenLessThanTwenty = 10 < 20;
+        boolean isTenEqualTwenty = 10 == 20;
+        boolean isTenEqualTen = 10 == 10;
+        boolean isTenDifferentThanTen = 10 != 10;
+        boolean isTenDifferentThanTwenty = 10 != 20;
+
+        System.out.println("Is ten greater than twenty? "+isTenGreaterThanTwenty);
+        System.out.println("Is ten less than twenty? "+isTenLessThanTwenty);
+        System.out.println("Is ten equal twenty? "+isTenEqualTwenty);
+        System.out.println("Is ten equal ten? "+isTenEqualTen);
+        System.out.println("Is ten different than ten? "+isTenDifferentThanTen);
+        System.out.println("Is ten different than twenty? "+isTenDifferentThanTwenty);
     }
 }
