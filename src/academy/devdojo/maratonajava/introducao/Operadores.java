@@ -20,7 +20,7 @@ public class Operadores {
         int resto = 20 % 2;
         System.out.println(resto);
 
-        // Operadores lógicos: < , > , <=, >=, ==, !=
+        // Operadores Relacionais: < , > , <=, >=, ==, !=
         boolean isTenGreaterThanTwenty = 10 > 20;
         boolean isTenLessThanTwenty = 10 < 20;
         boolean isTenEqualTwenty = 10 == 20;
@@ -34,5 +34,19 @@ public class Operadores {
         System.out.println("Is ten equal ten? "+isTenEqualTen);
         System.out.println("Is ten different than ten? "+isTenDifferentThanTen);
         System.out.println("Is ten different than twenty? "+isTenDifferentThanTwenty);
+
+        // && (AND), || (OR), ! (NOT)
+        int age = 35;
+        float salary = 3500f;
+        boolean isInLawAndGreaterThan30 = age >= 30 && salary >= 4612;
+        boolean isInLawAndLessThan30 = age < 30 && salary >= 3381;
+        System.out.println("Is in law and geater than 30? "+isInLawAndGreaterThan30);
+        System.out.println("Is in law and less than 30? "+isInLawAndLessThan30);
+        age = 29;
+        isInLawAndGreaterThan30 = age >= 30 && salary >= 4612;
+        isInLawAndLessThan30 = age < 30 && salary >= 3381;
+        System.out.println("Is in law and geater than 30? "+isInLawAndGreaterThan30);
+        System.out.println("Is in law and less than 30? "+isInLawAndLessThan30);
+
     }
 }
