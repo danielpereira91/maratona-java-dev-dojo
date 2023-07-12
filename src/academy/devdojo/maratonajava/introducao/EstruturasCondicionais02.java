@@ -42,5 +42,10 @@ public class EstruturasCondicionais02 {
             categoria = "Categoria Adulto";
         }
         System.out.println(categoria);
+
+        // Operador Ternário em 3 condições (não aconselhado usar): (condição1) ? verdadeiro : (condição2) ? verdadeiro : falso (não precisa declarar a condição3
+        idade = 15;
+        categoria = idade < 15 ? "Categoria Infantil" : idade < 18 ? "Categoria Juvenil" : "Categoria Adulto";
+        System.out.println("Operador Ternário: "+categoria);
     }
 }
