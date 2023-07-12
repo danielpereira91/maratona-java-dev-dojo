@@ -48,5 +48,11 @@ public class Operadores {
         System.out.println("Is in law and geater than 30? "+isInLawAndGreaterThan30);
         System.out.println("Is in law and less than 30? "+isInLawAndLessThan30);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000f;
+        boolean isPlayStationCincoCompravel = valorTotalContaCorrente >= valorPlaystation || valorTotalContaPoupanca >= valorPlaystation;
+        System.out.println("Dá pra comprar um Playstation 5? "+isPlayStationCincoCompravel);
+
     }
 }
