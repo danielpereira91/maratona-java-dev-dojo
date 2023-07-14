@@ -12,7 +12,6 @@ public class EstruturasDeRepeticaoExercicioBreak {
             }
                 System.out.printf("Parcela %d: R$%.2f.", parcela, valorParcela);
                 System.out.println("");
-
         }
     }
 }
