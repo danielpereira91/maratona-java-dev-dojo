@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class EstruturasCondicionaisExercicio {
+public class EstruturasCondicionaisExercicioELSEIF {
     public static void main(String[] args) {
         double salarioAnual = 33000;
         double primeiraFaixa = 0.097;
