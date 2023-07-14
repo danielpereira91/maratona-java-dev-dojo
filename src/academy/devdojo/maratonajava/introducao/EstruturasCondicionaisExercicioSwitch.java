@@ -7,7 +7,7 @@ public class EstruturasCondicionaisExercicioSwitch {
         switch (dia) {
             case 1:
             case 7:
-                System.out.println("Dia não útil");
+                System.out.println("Final de semana");
                 break;
             case 2:
             case 3:
