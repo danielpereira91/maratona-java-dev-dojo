@@ -31,6 +31,8 @@ public class EstruturasDeRepeticao01 {
             System.out.println(++count+" Dentro do 'do-while'");
         } while (count < 10);
 
-
+        for (int i = 0; i < 10; i++) {
+            System.out.println("For "+i);
+        }
     }
 }
