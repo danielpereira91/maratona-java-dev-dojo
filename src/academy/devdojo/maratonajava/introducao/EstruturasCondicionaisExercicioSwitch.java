@@ -17,7 +17,7 @@ public class EstruturasCondicionaisExercicioSwitch {
                 System.out.println("Dia útil");
                 break;
             default:
-                System.out.println("Não existe este número em dias de semana.");
+                System.out.println("Opção inválida. Opções somente de 1 a 7.");
                 break;
         }
     }
