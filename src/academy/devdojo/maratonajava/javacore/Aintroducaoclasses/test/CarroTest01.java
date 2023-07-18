@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
 
 import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.domain.Carro;
 
-public class CarroTest {
+public class CarroTest01 {
     public static void main(String[] args) {
         Carro carro1 = new Carro();
         Carro carro2 = new Carro();
