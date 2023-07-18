@@ -15,6 +15,9 @@ public class CarroTest {
         carro2.modelo = "3008";
         carro2.ano = 2025;
 
+        // carro1 = carro2; // Referência de Objetos
+        // carro2 = carro1;
+
         System.out.printf("Carro 1\nNome: %s\nModelo: %s\nAno: %d", carro1.nome, carro1.modelo, carro1.ano);
         System.out.println("\n---------------");
         System.out.printf("Carro 2\nNome: %s\nModelo: %s\nAno: %d", carro2.nome, carro2.modelo, carro2.ano);
