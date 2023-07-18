@@ -15,8 +15,8 @@ public class CarroExercicioTest {
         carro2.modelo = "3008";
         carro2.ano = 2025;
 
-        System.out.printf("Nome: %s\nModelo: %s\nAno: %d", carro1.nome, carro1.modelo, carro1.ano);
-        System.out.println("\n----------------------------");
-        System.out.printf("Nome: %s\nModelo: %s\nAno: %d", carro2.nome, carro2.modelo, carro2.ano);
+        System.out.printf("Carro 1\nNome: %s\nModelo: %s\nAno: %d", carro1.nome, carro1.modelo, carro1.ano);
+        System.out.println("\n---------------");
+        System.out.printf("Carro 2\nNome: %s\nModelo: %s\nAno: %d", carro2.nome, carro2.modelo, carro2.ano);
     }
 }
