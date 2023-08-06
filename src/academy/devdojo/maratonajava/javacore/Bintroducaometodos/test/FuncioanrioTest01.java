@@ -10,5 +10,7 @@ public class FuncioanrioTest01 {
         funcionario.setSalarios(new double[]{1500, 2400.65, 4211.68});
 
         funcionario.imprime();
+
+        System.out.println("Média " + funcionario.getMedia());
     }
 }
