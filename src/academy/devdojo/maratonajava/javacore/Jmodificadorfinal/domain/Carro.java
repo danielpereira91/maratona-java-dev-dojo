@@ -5,6 +5,11 @@ public class Carro {
     public static final double VELOCIDADE_LIMITE = 250; // toda variável constante (final) tem que estar em uppercase e separada por underscore.
     public final Comprador COMPRADOR = new Comprador();
 
+    public final void imprime() {
+        System.out.println(this.nome);
+    };
+
+
     public Comprador getCOMPRADOR() {
         return COMPRADOR;
     }
