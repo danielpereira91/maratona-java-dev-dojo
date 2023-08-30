@@ -7,13 +7,17 @@
 <body>
     <h1>Classes Abstratas</h1>
 
-    <h3>Parte 01</h3>
+    <h3>Parte 01 - Aula 84</h3>
     <p>As classes abstratas existem para servir como template para classes extendidas.</p>
     <p>São um tipo de classe especial que não pode ser instanciada, apenas herdada. Sendo assim, uma classe abstrata não pode ter um objeto criado a partir de sua instanciação. Essas classes são muito importantes quando não queremos criar um objeto a partir de uma classe “geral”, apenas de suas “subclasses”.</p>
 
-    <h3>Parte 02</h3>
+    <h3>Parte 02 - Aula 85</h3>
     <p>Classes Abstratas podem conter médtodos abstratos e não-abstratos. Mas classes concretas não podem conter métodos abstratos.</p>
     <p>Torna-se útil ter um método para, por exemplo, excluir um funcionário do sistema. Você pode ter o método concreto dentro da classe abstrata Funcionario.</p>
     <p>Métodos abstratos não têm corpo. A partir do momento em que você cria o método abstrato na superclasse, obrigatoriamente você precisa também implementá-lo nas subclasses, mesmo que sem corpo também.</p>
+
+    <h3>Parte 03 - Aula 86</h3>
+    <p>Caso haja mais classes abstratas parentes (como classe avô etc) e nelas houverem métodos abstratos, as subclasses abstratas abaixo não precisarão implementar o método abstrato, somente as classes concretas que deverão fazer a implementação.</p>
+    <p>Se a classe abstrata implementar o método, as classes filhas dessa classe já pegarão este método.</p>
 </body>
 </html>
