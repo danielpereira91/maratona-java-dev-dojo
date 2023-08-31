@@ -20,5 +20,26 @@
 
     <p>Não existe limite para a quantidade de interfaces que você pode implementar em uma classe.<br>
     <b>public class NomeDaClasse implements NomeDaInterface1, <i>NomeDaInterface2</i></b></p>
+    <p>A partir do Java 8 foi possível adicionar métodos com funcionalidades nas Interfaces, bastando adicionar "default" antes de void.<br>
+    <b><i>default</i> void nomeDoMétodo</b></p>
+
+    <h4>Parte 03 - Aula 89</h4>
+    <p>As Interfaces são uma espécie de contrato onde todos os métodos, por padrão, serão públicos e abstratos.<br>
+        Se não criar como abstratos, eles precisam ser <b>default</b> (introduzido no Java 8), e é necessário prover uma implementação.</p>
+    <p>Não é possível instanciar um objeto através de uma interface.</p>
+
+    <h3>Ordem dos modificadores de acesso</h3>
+    <h4>Mais restritivo ao menos restritivo</h4>
+    <p>
+        private<br>
+        default<br>
+        protected<br>
+        public
+    </p>
+    <p>
+        Os modificadores de acesso só pordem ser sobrescritos por modificadores mais liberais <br><br>
+
+        Uma classe <i>private</i> pode ser sobrescrita com todos os outros modificadores, já o <i>public</i> não pode ser sobrescrito por nenhum outro.
+    </p>
 </body>
 </html>
