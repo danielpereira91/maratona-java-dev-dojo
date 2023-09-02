@@ -11,7 +11,25 @@
 
     <p>
         Polimorfismo significa múltiplas formas. Você pode trocar o tipo da variável de referência mas ainda continuar utilizando outros objetos.<br>
-        Aplicado somente na <i>herança</i>.
+        Aplicado somente na <i>herança</i>. Se uma funcionalidade for aplicada na subclasse, não será possível ser acessada pela superclasse.
+    </p>
+
+    <h4>Exemplo</h4>
+
+    <p>
+        <b>Superclasse</b> Produto possui as funcionalidades getNome(), getValor() e calcularImposto()
+    </p>
+
+    <p>
+        <b>Subclasse</b> Computador recebe todas as funcionalidades da <i>Superclasse</i> e não adiciona nenhuma outra
+    </p>
+
+    <p>
+        <b>Subclasse</b> Tomate também recebe todas as funcionalidade da <i>Superclasse</i> porém adiciona uma nova chamada "getDataValidade()"
+    </p>
+
+    <p>
+        <i>A Superclasse <b>Produto</b>, assim como a Subclasse <b>Computador</b>, não terão acesso à funcionalidade "getDataValidade()"</i>
     </p>
 
 </body>
